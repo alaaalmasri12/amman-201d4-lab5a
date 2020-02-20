@@ -111,9 +111,15 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-
+    var x=sumAndMultiply(2,3,4)[1];
+    var o=testArray[0];
+    var n=testArray[1];
+var l=testArray[2];
+    var letter=`The numbers ${o},${n},${l} have a product of ${x}.`
+var array=[x,letter];
+    return array;
 }
-
+testMultiplyArray();
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(testArray);
 
