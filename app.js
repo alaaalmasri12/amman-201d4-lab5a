@@ -10,7 +10,8 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
     var theSum = a+b;
-    // 'The sum of 4 and 7 is 11.'
+    // 'The sum of 4 and 7 is 11 .'
+    // it wil return the sum value
     var message = `The sum of ${a} and ${b} is ${theSum}.`;
     return [theSum, message];
 }
@@ -31,8 +32,11 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+var multiply=a*b;
+var message=`The product of ${a} and $ is ${b}.`;
+return [multiply,message];
 }
+testMultiply();
 
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);
